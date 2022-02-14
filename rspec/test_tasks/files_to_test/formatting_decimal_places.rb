@@ -1,5 +1,3 @@
-
-
 def two_decimal_places(n)
   raise NotImplementedError.new unless n.is_a? Float
   n.round(2)
